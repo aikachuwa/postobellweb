@@ -1,0 +1,16 @@
+.bg-cover{
+	background:url(../images/cultural-tourism.jpg);
+	height: 320px;
+	background-size: cover;
+}
+.h1{
+   background-color: blue;
+   margin-right: 10px;
+   padding-top: 100px;
+   margin-left: 200px;
+}
+
+.div{
+	background-color: blue;
+
+}

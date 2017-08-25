@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PostBella Resort</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/application.css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body style="background-color: #9acfea">
+<div class="container">
+    <div class="cl-xs-12">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html" ><i>HOME</i></a></li>
+                        <li class="active"><a href="about.html"><i>ABOUT US</i></a></li>
+                        <li><a href="gallery.html"><i>GALLERY</i></a></li>
+                        <li><a href="contact.html"><i>CONTACTS</i></a></li>
+                        <li><a href="news.html"><i>RESERVATIONS</i></a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4><b>Please fulfil the form below and we will het back to you soon.</b></h4>
+                    <form method="post">
+
+                        <div class="form-group">
+                            <label for="email">Your Full Name(Required)</label>
+                            <input type="name" class="form-control" id="name" placeholder="Enter your full name" name="name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phoneNumber">Your phone Number(Required)</label>
+                            <input class="form-control" id="inputPhone" maxlength=
+                                    "13" name="phone" required="required" size="13" title="" type="tel"  value="" placeholder="phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email(Required)</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="comment">Comment:</label>
+                            <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+                        </div>
+                        <button type="submit"  class="btn btn-default" name="send">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer"class="container">
+            <footer class="container-fluid text-center">
+                <i> <p style="color:white; padding-top: 15; padding-bottom: 15;">Copyright@2017, All Rights Reserved</p></i>
+            </footer>
+        </div>
+
+</body>
+</html>

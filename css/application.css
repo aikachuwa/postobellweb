@@ -1,0 +1,21 @@
+#left{
+    width: 70%;
+    min-height: 1000px;
+    float: right;
+    /*background-color: #79b8b1;*/
+    /*color: white;*/
+}
+
+#right{
+
+    width:70%;
+    min-height:1000px;
+    float:left;
+    background:#79b8b1;
+    color:white;
+
+}
+h5{
+    font-family: "Bitstream Vera Sans";
+
+}
